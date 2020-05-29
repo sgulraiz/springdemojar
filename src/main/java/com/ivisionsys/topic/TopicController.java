@@ -52,9 +52,8 @@ public class TopicController {
 	}
 	
 	//Delete request will be deleting an existing record
-	
-		@RequestMapping(method=RequestMethod.DELETE, value="/topics/{id}")
-		public void deleteTopic(@PathVariable String id){
-			topicService.deleteTopic(id);
-		}
+	@RequestMapping(method=RequestMethod.DELETE, value="/topics/{id}")
+	public void deleteTopic(@PathVariable String id){
+		topicService.deleteTopic(id);
+	}
 }
