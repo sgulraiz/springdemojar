@@ -11,7 +11,7 @@ public class CourseApiDataApplication extends SpringBootServletInitializer {
 	public static void main(String[] args) {
 		SpringApplication.run(CourseApiDataApplication.class, args);
 	}
-
+	//This change was made to configure this application so it can be deployed to tomcat
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
 		return builder.sources(CourseApiDataApplication.class);
