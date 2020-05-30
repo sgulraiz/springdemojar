@@ -6,7 +6,7 @@
 	<groupId>com.ivisionsys</groupId>
 	<artifactId>course-api-data</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>course-api-data</name>
 	<description>Course Project With Data</description>
