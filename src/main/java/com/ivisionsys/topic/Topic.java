@@ -14,8 +14,8 @@ public class Topic {
 	private String id;
 	private String name;
 	private String description;
-	public Topic() {
 
+	public Topic() {
 	}
 	
 	public Topic(String id, String name, String description) {
